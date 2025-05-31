@@ -1,0 +1,16 @@
+function PbCauchy
+
+f = @(t,y)5*y;
+[tt,yy] = ode45 (f,[0,1], 1);
+
+exacta = exp(5*tt);
+close all
+
+subplot (2,1,1) %2 columnas primera de ellas
+plot (tt,yy, 'ro-' ,tt,exacta, 'b*-')
+legend ('aprox ode45', 'exacta')
+subplot (2,1,2)
+plot (tt,abs(yy-exacta),'m+-')
+legend ('error')
+shg
+
