@@ -4,7 +4,7 @@ This repository contains a collection of academic projects developed during my M
 developed using R and MATLAB across key subjects:
 
 **Linear Models and Experimental Design (MLDE)**  
-Statistical analysis, ANOVA, and experimental design using R — focused on interpreting and modeling real-world data.
+Statistical analysis, ANOVA, and experimental design using R focused on interpreting and modeling real-world data.
 
 **Mathematical Modeling (MOM)**  
 Translation of real-life scenarios into mathematical language, applying differential equations and optimization techniques. Implemented using MATLAB.
